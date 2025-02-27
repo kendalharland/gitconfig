@@ -21,4 +21,4 @@ if [ "$DELETE_UNMERGED" = true ]; then
 fi
 
 
-git branch --merged | grep -v "\*" | xargs -n 1 git branch "$D_FLAG"
+git branch --merged main | grep -v "\*" | xargs -n 1 git branch "$D_FLAG"
