@@ -1,0 +1,6 @@
+[alias]
+    alias = !sh ~/.config/gitconfig/aliases/alias.sh
+    amend = !sh ~/.config/gitconfig/aliases/amend.sh
+    purge = !sh ~/.config/gitconfig/aliases/purge.sh
+    snap  = !sh ~/.config/gitconfig/aliases/snap.sh
+    nuke  = !sh ~/.config/gitconfig/aliases/nuke.sh

@@ -1,1 +1,1 @@
-# gitconfig-thebrowser.company
+# gitconfig
