@@ -17,8 +17,8 @@ done
 
 # Delete merged branches if enabled
 if [ "$DELETE_UNMERGED" = true ]; then
-  D_FLAG="-D" 
+  D_FLAG="-D"
 fi
 
 
-git branch --merged main | grep -v "\*" | xargs -n 1 git branch "$D_FLAG"
+git branch --merged main | grep -v "\*" | grep -v "main" | xargs -n 1 git branch "$D_FLAG"
